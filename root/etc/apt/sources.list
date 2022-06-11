@@ -1,0 +1,11 @@
+# Debian Bullseye, mises à jour de sécurité
+deb http://deb.debian.org/debian-security/ bullseye-security main
+deb-src http://deb.debian.org/debian-security/ bullseye-security main
+ 
+# Debian Bullseye, mises à jour "volatiles"
+deb http://deb.debian.org/debian/ bullseye-updates main
+deb-src http://deb.debian.org/debian/ bullseye-updates main
+
+# Debian Bullseye, dépôt principal + paquets non libres
+deb http://deb.debian.org/debian/ bullseye main contrib non-free
+deb-src http://deb.debian.org/debian/ bullseye main contrib non-free
